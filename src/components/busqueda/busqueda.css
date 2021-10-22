@@ -1,3 +1,34 @@
 .formBusqueda {
-    color: purple;
+    background-color: white;
+    text-align: center;
+    color:purple;
   }
+
+.datos {
+  display: flex;
+  flex-direction: column;
+}
+
+.datos1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.datos2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton {
+  background-color: purple;
+  color: white;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:20px;
+  padding-right:20px;
+  border-radius: 5px;
+}

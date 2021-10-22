@@ -1,13 +1,50 @@
-.App {
-}
-
-.container {
-  text-align: center;
-  color: purple;
-  background-color: rgb(200, 200, 200);
-  width: 100;
-}
-
 .imagen {
   background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-size: 1.5em;
+  text-align: center;
+  width: 100;
+  display: block;
+  background-color: white;
+  color: purple;
+}
+
+.menu {
+  width: 100;
+  font-size: 1.2em;
+  display: block;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+
+.body {
+  font-size: 1.1em;
+  color: purple;
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color:whitesmoke;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(168, 143, 162);
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
